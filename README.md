@@ -9,8 +9,8 @@ old_names <- list.files("/Users/jobinvarughese/Desktop/For Ravi/Palni_copy",
                         recursive=TRUE, full.names = T)
 old_names
 
-# Rename files by reordering elements and replacing slashes
-# with underscores
+#Rename files by reordering elements and replacing slashes
+#with underscores
 new_names <- gsub(
   pattern = "^(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)$",
   replacement = "\\1_\\2_\\3_\\4_\\5_\\6_\\7_\\8",
